@@ -1,0 +1,23 @@
+* {
+    background-color: #B6AD90;
+    color: #333D29;
+}
+
+h1 {
+    font-variant: small-caps;
+    font-weight: bolder;
+}
+
+p {
+    border: 1px solid #333D29;
+    border-radius: 25px;
+}
+
+a {
+    font-weight: bolder;
+}
+
+span {
+    font-weight: bolder;
+    border: inherit;
+}

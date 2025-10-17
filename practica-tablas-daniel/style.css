@@ -1,0 +1,17 @@
+@import url(https://csstools.github.io/normalize.css/11.0.0/normalize.css);
+
+* {
+    background-color: #B6AD90;
+    
+}
+
+tr, td, th {
+    border: 2px solid #B6AD90;
+    background-color: #FFFFFF;
+    width: 100px;
+    height: 50px;
+}
+
+th {
+    background-color: #B6AD90;
+}
