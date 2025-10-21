@@ -6,9 +6,11 @@ div {
 
 #container {
     width: 620px;
-    margin: 5px;
+    margin: auto;
+    padding: auto;
 }
 
-#container div {
+#container * {
     background-color: rgb(80, 80, 80);
+    margin: 5px;
 }
