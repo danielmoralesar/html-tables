@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url(https://csstools.github.io/normalize.css/11.0.0/normalize.css);
+
+        div{
+            width: 200px;
+            height: 200px;
+            background-color: blueviolet;
+            display: inline-block;
+        }
+        .box3, .box1, .box2{
+            /*Outline funciona para resaltar algo pintando su borde, no rompe la estructura*/
+            outline: 1vw solid yellow;
+        }
+    </style>
+</head>
+<body>
+    <!--Ponemos juntos los divs para que se ignroe el margin-->
+    <div class="box1"></div><div class="box2"></div><div class="box3"></div>
+</body>
+</html>
